@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #f39c12;
+            text-decoration: none;
+            margin: 0 1.5rem;
+            font-weight: 700;
+        }
+        nav a:hover {
+            color: #d35400;
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        section {
+            margin-bottom: 3rem;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #ffeaa7;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        ul li strong {
+            color: #f8c291;
+        }
+        footer {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 1.5rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #ffeaa7;
+            text-decoration: underline;
+        }
+        footer p {
+            margin: 0;
+        }
+        #resume-link {
+            color: #f39c12; /* Replace this with your preferred color */
+            text-decoration: none;
+        }
+
+        #resume-link:hover {
+            color: #d35400; /* Optional hover effect */
+        }
+        #Linkedin-link {
+            color: #f39c12; /* Replace this with your preferred color */
+            text-decoration: none;
+        }
+
+        #Linkedin-link:hover {
+            color: #d35400; /* Optional hover effect */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sandeep Mohan Nayak</h1>
+        <p>PhD Candidate | Electromechanical Systems Development</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a soon-to-be PhD graduate specializing in the development of advanced electromechanical systems. My expertise lies in actuator and generator design, controller development, and embedded systems. I am passionate about creating innovative solutions that bridge the gap between mechanical and electronic systems.</p>
+            <p>For more information, please visit <a href="https://msandeep1997.github.io/Resume/" id="resume-link" target="_blank">my Resume</a>.</p>
+        </section>
+        <section id="research">
+            <h2>Research Highlights</h2>
+            <ul>
+                <li><strong>Electromechanical Actuators:</strong> Designed and optimized actuators for precise motion control and high efficiency.</li>
+                <li><strong>Generator Design:</strong> Created innovative energy generation systems tailored for specific applications.</li>
+                <li><strong>Controller Design:</strong> Engineered advanced control strategies for improved system performance and reliability.</li>
+                <li><strong>Embedded Systems:</strong> Developed robust control algorithms and hardware designs for seamless system integration.</li>
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>Key Publications</h2>
+            <h3>Journals</h3>
+            <ul>
+                <li>Nayak, S.M., Kothari, M., Sarkar, A. and Sahoo, S.R., 2023. Multiphysics Analysis of a High-Speed Eddy Current Brake. IEEE Journal on Multiscale and Multiphysics Computational Techniques, 9, pp.27-35. <a href="https://ieeexplore.ieee.org/abstract/document/10319672" target="_blank">Read Here</a></li>
+                <li>Nayak, S.M., Singh, J., Kothari, M. and Sahoo, S.R., 2024. Robust Velocity Control of a Fixed Canard Decoupled Dual-Spin Projectile. IEEE Transactions on Aerospace and Electronic Systems. <a href="https://ieeexplore.ieee.org/abstract/document/10663247" target="_blank">Read Here</a></li>
+            </ul>
+            <h3>Conferences</h3>
+            <ul>
+                <li>Nayak, S.M., Singh, J. and Kothari, M., 2024. Electromagnetic Torque Control of an Optimized Flux-Concentrated Transverse Flux Generator. In AIAA SCITECH 2024 Forum (p. 0020). <a href="https://doi.org/10.2514/6.2024-0020" target="_blank">Read Here</a></li>
+                <li>Nayak, S.M., Kothari, M. and Sahoo, S.R., 2025. Electromagnetic Refinement and Performance Characterization of a UAV
+                    BLDC Motor. In AIAA SCITECH 2025 Forum (Accepted).</li>
+                    <li>Nayak, S.M., Jaiswal, R., Kothari, M. and Sahoo, S.R., 2025. Design of Radial Flux Outrunner BLDC Motor for Single-Rotor
+                        UAVs. In AIAA SCITECH 2025 Forum (Accepted).</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p><strong>Email:</strong> snayak7787@gmail.com</p>
+            <p><strong>Phone:</strong> +91-8249806428</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sandeep-mohan-nayak-0486a7183/" id="Linkedin-link" target="_blank">linkedin.com/in/yourprofile</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sandeep Mohan Nayak | <a href="#">Back to Top</a></p>
+    </footer>
+</body>
+</html>
