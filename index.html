@@ -124,14 +124,149 @@
             <p>For more information, please visit <a href="https://msandeep1997.github.io/Resume/" id="resume-link" target="_blank">my Resume</a>.</p>
         </section>
         <section id="research">
-            <h2>Research Highlights</h2>
+            <h2>Research Interest</h2>
             <ul>
-                <li><strong>Electromechanical Actuators:</strong> Designed and optimized actuators for precise motion control and high efficiency.</li>
-                <li><strong>Generator Design:</strong> Created innovative energy generation systems tailored for specific applications.</li>
-                <li><strong>Controller Design:</strong> Engineered advanced control strategies for improved system performance and reliability.</li>
-                <li><strong>Embedded Systems:</strong> Developed robust control algorithms and hardware designs for seamless system integration.</li>
+                <li><strong>Advanced Motor Design:</strong> Expertise in the design and optimization of BLDC motors and electromagnetic braking systems for precision applications.</li>
+                <li><strong>Energy Conversion Systems:</strong> Development of custom generators for specialized uses, including fuzes, wind turbines, and other tailored energy generation solutions.</li>
+                <li><strong>Control System Development:</strong> Design and implementation of linear and non-linear controllers for high-performance motor control and electromechanical systems.</li>
+                <li><strong>Embedded Systems:</strong> Firmware development for motor control applications, integrating advanced algorithms (FOC) and system-level optimization.</li>
             </ul>
         </section>
+        
+        <section id="research">
+            <h2>Research Highlights</h2>
+            <ul class="highlight-list">
+                <!-- Research Highlight 1 -->
+                <li class="highlight-item">
+                    <div class="image-container">
+                        <a href="project-details-1.html" target="_blank">
+                            <img src="E:\Web Development\Picture\Thumbnail_1.jpg" 
+                                 alt="Multiphysics Analysis of ECB" class="research-image">
+                        </a>
+                    </div>
+                    <div class="description">
+                        Multiphysics Analysis of a High Speed Eddy Current Brake.
+                    </div>
+                </li>
+                <!-- Research Highlight 2 -->
+                <li class="highlight-item">
+                    <div class="image-container">
+                        <a href="project-details-2.html" target="_blank">
+                            <img src="E:\Web Development\Picture\Thumbnail_2.jpg" 
+                                 alt="EM Torque Control of FC-TFG" class="research-image">
+                        </a>
+                    </div>
+                    <div class="description">
+                        Electromagnetic Torque Control of an Optimized Flux-Concentrated Transverse Flux Generator.
+                    </div>
+                </li>
+                <!-- Research Highlight 3 -->
+                <li class="highlight-item">
+                    <div class="image-container">
+                        <a href="project-details-3.html" target="_blank">
+                            <img src="E:\Web Development\Picture\Thumbnail_3.jpg" 
+                                 alt="Robust Velocity Control of DSP" class="research-image">
+                        </a>
+                    </div>
+                    <div class="description">
+                        Robust Velocity Control of a Fixed Canard Decoupled Dual-Spin Projectile.
+                    </div>
+                </li>
+                <!-- Research Highlight 4 -->
+                <li class="highlight-item">
+                    <div class="image-container">
+                        <a href="project-details-4.html" target="_blank">
+                            <img src="E:\Web Development\Picture\Thumbnail_4.jpg" 
+                                 alt="Design of RF-Outrunner BLDC" class="research-image">
+                        </a>
+                    </div>
+                    <div class="description">
+                        Design of Radial Flux Outrunner BLDC Motor for Single-Rotor UAVs.
+                    </div>
+                </li>
+                <!-- Research Highlight 5 -->
+                <li class="highlight-item">
+                    <div class="image-container">
+                        <a href="project-details-5.html" target="_blank">
+                            <img src="E:\Web Development\Picture" 
+                                 alt="Electromagnetic Refinement of BLDC Motor" class="research-image">
+                        </a>
+                    </div>
+                    <div class="description">
+                        Electromagnetic Refinement and Performance Characterization of a UAV BLDC Motor.
+                    </div>
+                </li>
+                <!-- Additional highlights follow the same pattern -->
+            </ul>
+        </section>
+        
+        <style>
+            /* Styles remain the same as before */
+            .highlight-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                gap: 20px;
+                padding: 0;
+                list-style-type: none;
+            }
+        
+            .highlight-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: calc(50% - 10px);
+                margin-bottom: 30px;
+                box-sizing: border-box;
+            }
+        
+            .image-container {
+                width: 350px;
+                height: 350px;
+                position: relative;
+                overflow: hidden;
+                margin-bottom: 20px;
+                border-radius: 10px; /* Optional, for rounded corners */
+            }
+        
+            .research-image {
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Ensures the image fills the square container */
+                border-radius: 10px; /* Matches the container's rounded corners */
+                transition: transform 0.3s ease;
+            }
+        
+            .image-container:hover .research-image {
+                transform: scale(1.3);
+            }
+        
+            .description {
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.7);
+                color: white;
+                padding: 15px;
+                border-radius: 5px;
+                width: 100%;
+                opacity: 0;
+                visibility: hidden;
+                transition: visibility 0.3s, opacity 0.3s;
+            }
+        
+            .highlight-item:hover .description {
+                visibility: visible;
+                opacity: 1;
+            }
+        
+            @media (max-width: 768px) {
+                .highlight-item {
+                    width: 100%;
+                }
+            }
+        </style>
+        
+        
+        
         <section id="publications">
             <h2>Key Publications</h2>
             <h3>Journals</h3>
@@ -151,7 +286,8 @@
         <section id="contact">
             <h2>Contact Me</h2>
             <p><strong>Email:</strong> snayak7787@gmail.com</p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sandeepm98/" id="Linkedin-link" target="_blank">linkedin.com/in/yourprofile</a></p>
+            <p><strong>Phone:</strong> +91-8249806428</p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sandeep-mohan-nayak-0486a7183/" id="Linkedin-link" target="_blank">linkedin.com/in/yourprofile</a></p>
         </section>
     </div>
     <footer>
